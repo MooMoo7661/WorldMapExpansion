@@ -1,0 +1,5 @@
+This mod functions similarly to Xaero's Minimap Mod for Minecraft.
+All* npcs, enemies, critters, etc. will show on the fullscreen and minimap.
+
+
+*Some npcs such as minibosses, town npcs, bosses, and various small obscure things such as windy balloons (windy day slimes).

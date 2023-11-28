@@ -1,0 +1,6 @@
+displayName = MooMoo's Expanded World Map
+author = MooMoo
+version = 0.1
+hideResources = false
+includeSource = true
+buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*

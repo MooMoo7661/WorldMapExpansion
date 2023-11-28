@@ -1,0 +1,24 @@
+Configs: {
+	NPCIconDrawConfig: {
+		DisplayName: N P C Icon Draw Config
+
+		DrawDictionary: {
+			Label: Draw Dictionary
+			Tooltip: ""
+		}
+	}
+
+	IconDrawConfig: {
+		DisplayName: Icon Draw Config
+
+		DrawNPCs: {
+			Label: Draw NPCS
+			Tooltip: Enemies, critters, bosses, etc. all count as npcs. Town npcs are not the only npcs.
+		}
+
+		DrawItems: {
+			Label: Draw Items
+			Tooltip: Configure drawing dropped items on the map
+		}
+	}
+}
