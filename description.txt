@@ -1,5 +1,22 @@
 This mod functions similarly to Xaero's Minimap Mod for Minecraft.
-All* npcs, enemies, critters, etc. will show on the fullscreen and minimap.
+All* npcs, enemies, items, projectiles, critters, etc. will show on the fullscreen and minimap,
+There are multiple configurable options, to better suit your needs.
 
+*Some npcs such as minibosses, town npcs, bosses, and various small obscure things such as windy balloons (windy day slimes) will not render.
 
-*Some npcs such as minibosses, town npcs, bosses, and various small obscure things such as windy balloons (windy day slimes).
+Please note that this is still in development. I do plan on improving code, as well as performance and features.
+Join my discord group! => discord.gg/G5cbT7tj9K
+
+-= Crossmod Content =-
+If you want to add custom icons for specific npcs, all you need to do is add to a Dictionary located inside the Dictionaries class.
+The draw code will first check for a dictionary entry, if none is found, then it manually draws the npc on the map.
+This is useful if certain enemies / bosses are drawing incorrectly, or if you want them to just have a nice map icon.
+
+Credits!
+Thank you to the following people:
+cet (_cet)
+David (davidfdev)
+Michaelsoftman (michaelsoftman)
+fish kisser (stormytuna)
+css (sucss)
+...And various other tmod members for your help! (Sorry, I don't remember everyone)

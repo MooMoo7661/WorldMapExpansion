@@ -1,6 +1,7 @@
-displayName = MooMoo's Expanded World Map
+displayName = MooMoo's MegaMap
 author = MooMoo
-version = 0.1
+version = 1.0.2
 hideResources = false
 includeSource = true
 buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*
+side = Client

@@ -10,8 +10,6 @@ namespace WorldMapExpansion.UI
             NPCID.WindyBalloon,
             NPCID.DD2OgreT2,
             NPCID.DD2OgreT3,
-            NPCID.DD2DarkMageT1,
-            NPCID.DD2DarkMageT3,
             NPCID.DD2Betsy,
             NPCID.PirateShip,
             NPCID.IceQueen,
@@ -22,7 +20,40 @@ namespace WorldMapExpansion.UI
             NPCID.MartianSaucerCannon,
             NPCID.MartianSaucerCore,
             NPCID.MartianSaucerTurret,
-            NPCID.Everscream
+            NPCID.Everscream,
+            NPCID.GolemFistLeft,
+            NPCID.GolemFistRight,
+            NPCID.GolemHead,
+            NPCID.GolemHeadFree
+            );
+
+       
+        public static bool[] AvoidDrawingProjectile = ItemID.Sets.Factory.CreateBoolSet(
+            ProjectileID.TheHorsemansBlade,
+            ProjectileID.FinalFractal,
+            ProjectileID.TrueExcalibur,
+            ProjectileID.TrueNightsEdge
+            );
+
+        public static bool[] FlipSprite = ItemID.Sets.Factory.CreateBoolSet(
+            ProjectileID.Spear,
+            ProjectileID.AdamantiteGlaive,
+            ProjectileID.ChlorophytePartisan,
+            ProjectileID.CobaltNaginata,
+            ProjectileID.DarkLance,
+            ProjectileID.MonkStaffT2,
+            ProjectileID.Gungnir,
+            ProjectileID.MushroomSpear,
+            ProjectileID.MythrilHalberd,
+            ProjectileID.NorthPoleWeapon,
+            ProjectileID.ObsidianSwordfish,
+            ProjectileID.OrichalcumHalberd,
+            ProjectileID.PalladiumPike,
+            ProjectileID.ThunderSpear,
+            ProjectileID.Swordfish,
+            ProjectileID.TheRottedFork,
+            ProjectileID.TitaniumTrident,
+            ProjectileID.Trident
             );
     }
 }

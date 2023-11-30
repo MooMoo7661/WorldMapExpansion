@@ -20,5 +20,25 @@ Configs: {
 			Label: Draw Items
 			Tooltip: Configure drawing dropped items on the map
 		}
+
+		NpcScale: {
+			Label: Npc Scale
+			Tooltip: ""
+		}
+
+		DrawDistance: {
+			Label: Draw Distance (-1 for infinite)
+			Tooltip: This affects Npc, Item, and Projectile drawing on the map.
+		}
+
+		ItemScale: {
+			Label: Item Scale
+			Tooltip: ""
+		}
+
+		DrawProjectiles: {
+			Label: Draw Projectiles
+			Tooltip: Configure drawing projectiles. May cause lag. [c/FF0000:(EXPERIMENTAL : Most projectiles will draw fine, but some won't.)]
+		}
 	}
 }

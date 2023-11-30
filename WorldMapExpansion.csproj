@@ -8,11 +8,6 @@
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <ItemGroup>
-    <None Remove="UI\Icons\BlueSlime.png" />
-    <None Remove="UI\Icons\IconFriendly.png" />
-    <None Remove="UI\Icons\IconHostile.png" />
-  </ItemGroup>
-  <ItemGroup>
     <PackageReference Include="tModLoader.CodeAssist" Version="0.1.*" />
   </ItemGroup>
 </Project>

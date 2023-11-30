@@ -13,6 +13,9 @@ namespace WorldMapExpansion.UI
     {
         public static readonly string path = "WorldMapExpansion/UI/Icons/";
 
+        /// <summary>
+        /// Allows overriding of the automatic npc icon drawing, to instead opt for a custom icon.
+        /// </summary>
         public static Dictionary<int, Icon> dict = new Dictionary<int, Icon>();
 
         #region Icons
@@ -29,7 +32,7 @@ namespace WorldMapExpansion.UI
         /// </summary>
         public void AddDictionaryEntries()
         {
-            //slime.Set("BlueSlime"); dict.TryAdd(NPCID.BlueSlime, slime);
+            //slime.Set("BlueSlime"); dict.TryAdd(NPCID.BlueSlime, slime); // example
         }
 
         public Texture2D GetIcon(int npcid)
