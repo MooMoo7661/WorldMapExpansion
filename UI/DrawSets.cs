@@ -24,7 +24,8 @@ namespace WorldMapExpansion.UI
             NPCID.GolemFistLeft,
             NPCID.GolemFistRight,
             NPCID.GolemHead,
-            NPCID.GolemHeadFree
+            NPCID.GolemHeadFree,
+            NPCID.Shimmerfly
             );
 
        
