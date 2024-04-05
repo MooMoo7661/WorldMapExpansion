@@ -25,7 +25,11 @@ namespace WorldMapExpansion.UI
             NPCID.GolemFistRight,
             NPCID.GolemHead,
             NPCID.GolemHeadFree,
-            NPCID.Shimmerfly
+            NPCID.Shimmerfly,
+            NPCID.LunarTowerVortex,
+            NPCID.LunarTowerStardust,
+            NPCID.LunarTowerSolar,
+            NPCID.LunarTowerNebula
             );
 
        
