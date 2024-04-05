@@ -62,8 +62,6 @@ namespace WorldMapExpansion.UI
             Texture2D texture = TextureAssets.Npc[npc.type].Value;
             float scaleIfNotSelected = config.NpcScale;
 
-
-            
             position = (position - capture.mapPosition) * capture.mapScale + capture.mapOffset;
             if (capture.clippingRect.HasValue && !capture.clippingRect.Value.Contains(position.ToPoint()))
             {
@@ -89,6 +87,9 @@ namespace WorldMapExpansion.UI
             position2.Y -= npc.frame.X / 2;
 
             sourceRectangle = npc.frame;
+            if (sourceRectangle.Width > 75 || sourceRectangle.Height > 75)
+                return new DrawResult(num2);
+
             Main.spriteBatch.Draw(texture, position2, npc.frame, color, npc.rotation, new Vector2(sourceRectangle.Width / 2f, sourceRectangle.Height / 2), scale, effects, 0f);
             return new DrawResult(num2);
         }
