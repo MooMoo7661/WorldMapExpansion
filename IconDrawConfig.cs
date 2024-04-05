@@ -29,7 +29,7 @@ namespace WorldMapExpansion
         [Slider]
         public float ItemScale { get; set; }
 
-        [DefaultValue(-1f)]
+        [DefaultValue(160f)]
         [Increment(1f)]
         [Range(-1f, 500f)]
         [Slider]
