@@ -1,6 +1,6 @@
 displayName = MooMoo's MegaMap
 author = MooMoo
-version = 1.0.3
+version = 1.0.4
 hideResources = false
 includeSource = true
 buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*
